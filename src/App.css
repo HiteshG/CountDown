@@ -1,0 +1,158 @@
+/*   Webkit is used to change Scrollbar */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 2 em ;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+     background-clip: content-box;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.App-header {
+  background-color: #880E4F ;
+  height: 220px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  margin-top:  90px;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  margin: 25px;
+  font-size: 40px;
+}
+
+.Page-one{
+  background-image: url(./images/6.jpg);
+  background-size: cover;
+  backface-visibility: 0.8;
+/*  background-attachment: fixed;*/
+  background-position: center;
+  height: 1200px;
+  width: auto;
+ }
+
+.Page-two {
+  background-image: url("./images/2.jpg");
+  background-size: cover;
+  height: 650px;
+  width: auto;
+  margin-top: -30px; 
+} 
+
+.cap{
+   text-transform: capitalize;
+   
+}
+.count {
+  color: white ;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+
+.clock{
+  color: white ;
+  font-size: 30px;
+  display: inline-flex;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.form{
+padding: 40px;
+ width: 50%;
+ margin-left: 25%;
+ margin-top: 30px;
+ font-family: cursive;
+ font-size: 35px;
+ height: 25px;
+}
+
+.btn{
+  font-size: 15px;
+}
+
+.foot{
+  text-align: center;
+  font-size: 26px;
+  font-family: sans-serif;
+  padding-top:  45px;
+  color: black ;
+}
+
+.contact {
+  padding: 95px;
+}
+
+h3{
+  color: black;
+  font-family: cursive;
+  font-size: 45px;
+}
+
+.par{
+   color: black;
+  font-size: 30px;
+  padding: 35px;
+}
+
+/* logo colors */
+#twitterIcon{
+  color: rgb(0,172,237);
+}
+#githubIcon{
+  color: rgb(0,0,0);
+}
+#linkedinIcon{
+  color: #0077B5;
+}
+#facebookIcon{
+  color: #3b5998;
+}
+#gmailIcon{
+  color: red;
+}
+
+/* logo incidention  */
+.btn{
+  margin: 8px;
+}
+
+.foot{
+  text-align: center;
+  font-size: 26px;
+  font-family: sans-serif;
+  padding-top:  45px;
+  color: black ;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(0deg); }
+}
